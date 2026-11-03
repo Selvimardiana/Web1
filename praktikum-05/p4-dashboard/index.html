@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SIAKAD Mini — Dashboard</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <header class="navbar">
+        <div class="brand">SIAKAD Mini</div>
+        <nav class="nav-kanan">
+            <button class="notif" aria-label="Notifikasi, 3 belum dibaca">
+                <span class="badge">3</span>
+            </button>
+            <div class="profil">
+                <img src="img/profil.jpg" alt="Foto Admin"
+                class="avatar">
+                <span>Admin Prodi</span>
+            </div>
+            <a href="#" class="logout">Logout</a>
+        </nav>
+    </header>
+
+    <div class="wrapper">
+        <aside class="sidebar">
+            <nav class="menu" aria-label="Menu utama">
+                <a href="#" class="aktif">Dashboard</a>
+                <a href="#">Data Mahasiswa</a>
+                <a href="#">Mata Kuliah</a>
+                <a href="#">Nilai</a>
+                <a href="#">Laporan</a>
+            </nav>
+            <a href="#" class="Pengaturan">Pengaturan</a>
+        </aside>
+
+        <main class="konten">
+            <h1>Dashboard</h1>
+
+            <section class="statistik">
+                <article class="kartu">
+                    <h2>Mahasiswa Aktif</h2>
+                    <p class="angka">1.248</p>
+                </article>
+                <article class="kartu">
+                    <h2>Dosen</h2>
+                    <p class="angka">62</p>
+                </article>
+                <article class="kartu">
+                    <h2>Mata Kuliah</h2>
+                    <p class="angka">94</p>
+                </article>
+                <article class="kartu kartu-baru">
+                    <span class="label-baru">Baru</span>
+                    <h2>Kelas Hari Ini</h2>
+                    <p class="angka">18</p>
+                </article>
+            </section>
+
+            <section class="panel">
+                <h2>Pengumuman</h2>
+                <p>Pengisian KRS semester genap dibuka mulai Senin. Pastikan data akademik
+                    sudah diverifikasi dosen PA.</p>
+            </section>
+            <section class="panel">
+                <h2>Jadwal Kuliah</h2>
+
+                <div class="tabel-scroll">
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>Hari</th>
+                                <th>Mata Kuliah</th>
+                                <th>Waktu</th>
+                                <th>Ruangan</th>
+                            </tr>
+                        </thead>
+
+                        <tbody>
+                            <tr>
+                                <td>Senin</td>
+                                <td>Pemrograman Web</td>
+                                <td>08.00 - 10.00</td>
+                                <td>Lab 1</td>
+                            </tr>
+                            <tr>
+                                <td>Selasa</td>
+                                <td>Basis Data</td>
+                                <td>10.00 - 12.00</td>
+                                <td>Ruang 2</td>
+                            </tr>
+                            <tr>
+                                <td>Rabu</td>
+                                <td>Struktur Data</td>
+                                <td>08.00 - 10.00</td>
+                                <td>Ruang 3</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </section>
+        </main>
+    </div>
+
+    <footer class="footer">
+        &copy; 2026 Program Studi Teknik Informatika — FTI UNISKA
+    </footer>
+
+</body>
+
+</html>
